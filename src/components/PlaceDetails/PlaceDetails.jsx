@@ -1,12 +1,12 @@
-import React from 'react'
-import {Box,Typography,Button,Card,CardMedia,CardContent,CardActions,Chip} from "@material-ui/core"
-import LocationOnIcon from "@material-ui/icons/LocationOn"
-import PhoneIcon from "@material-ui/icons/Phone"
-import Rating from "@material-ui/lab/Rating"
+import React from 'react';
+import { Box, Typography, Button, Card, CardMedia, CardContent, CardActions, Chip } from '@material-ui/core';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import PhoneIcon from '@material-ui/icons/Phone';
+import Rating from '@material-ui/lab/Rating';
 
 import useStyles from './styles.js';
 
-const PlaceDetails = ({place,selected,refProp}) => {
+const PlaceDetails = ({ place, selected, refProp }) => {
   if (selected) refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   const classes = useStyles();
 
@@ -67,4 +67,4 @@ const PlaceDetails = ({place,selected,refProp}) => {
   );
 }
 
-export default PlaceDetails
+export default PlaceDetails;
