@@ -28,8 +28,8 @@ You may also see any lint errors in the console.
 ---
 
 <p float="left">
-  <img src="public/img/3.png" width="30%"/>
-  <img src="public/img/4.png" width="30%" style="padding-left:70px;"/> 
+  <img src="public/img/3.png" width="35%"/>
+  <img src="public/img/4.png" width="35%"/> 
 </p>
 
 ---
